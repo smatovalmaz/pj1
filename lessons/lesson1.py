@@ -25,7 +25,8 @@ class Human:
                 f'возраст : {self.возраст}\n'
                 f'-----------------------\n')
 
-
+    def __len__(self):
+        return len(self.name) * 2
 
 # def test():
 #     print('глаза')
